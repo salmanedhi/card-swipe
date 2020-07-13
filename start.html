@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            body 
+            {
+                color: white;
+                text-align: center;
+                font-family: Arial,sans-serif;
+                background-color: #333333; 
+            }
+
+            h1 {
+                color: white;
+            }
+            
+            #board 
+            {
+                width: 995px;
+                margin-top: 15px;
+                height: 96%;
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+                background-image: url('./img/bg1.png');
+                background-repeat: no-repeat;
+                border: 2px solid #bbbbbb;
+            }
+
+            .instructions {
+                text-align: left;
+                padding: 5px;
+                margin-left: 20px;
+            }
+
+            ul {
+                padding: 10px;
+            }
+
+            li{
+                padding:5px;
+            }
+
+            .button {
+                border-radius: 4px;
+                position: relative;
+                top: 60px;
+                width: 200px;
+                height: 50px;
+                background-color: white;
+                border: none;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border: 2px solid rgb(65, 170, 170);
+            }
+
+            .button:hover {
+                background-color: #009999;
+                color: white;
+            }
+        </style>
+
+    </head>
+
+    <body>
+      
+        <div  id="board">
+            <h1>Siemens Quiz</h1>
+
+            <div class="instructions">
+                <h3>Instructions</h3>
+            
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nullam eleifend turpis quis nibh ornare, eu elementum tellus egestas.</li>
+                    <li>Etiam mollis erat in leo porttitor iaculis.</li>
+                    <li>Proin mattis odio vel lacus iaculis lobortis..</li>
+                </ul>
+            </div>
+
+            <button class="button" type="button" onclick="location.href='index.html'">Start Quiz!</button>
+        </div>
+
+        
+        
+    </body>
+
+    
+</html>

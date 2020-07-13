@@ -1,0 +1,157 @@
+body {
+    text-align: center;
+    font-family: Arial,sans-serif;
+     background-color: #333333; 
+}
+
+h2 {
+  font-size: 16pt;
+  color: #009999;
+}
+
+.green_color_text
+{
+  color: #009999;
+}
+
+span 
+{
+  font-size: 13px;
+}
+
+p {
+  font-size: 12pt;
+}
+
+#board {
+    margin-top: 15px;
+    width: 995px;
+    height: 96%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    background-image: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    border: 2px solid #bbbbbb;
+}
+
+.card {
+    width: 320px ;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*border-radius: 3%;  show this to kevin */ 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+    background-color: white;
+    transform: translateX(-50%) translateY(-50%) scale(0.95);
+    border-color: rgb(60,70,75);
+    border-style: groove;
+    
+}
+
+.card2 {
+  width: 320px;
+  height: 450px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  background-color: white;
+  border-color: rgb(60,70,75);
+  border-style: groove;
+  float: right;
+  position: relative;
+  right: 80px;
+}
+
+/* Float four columns side by side */
+.custom_column {
+    width: 5%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .custom_row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .custom_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .custom_column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.cardMargin 
+{
+  margin-top: 20px;
+}
+
+#resultP
+{
+  font-size: large;
+}
+
+.ans_span
+{
+  font-weight: bold;
+}
+
+.cardBody
+{
+  margin-top: 20px;
+  color: #1d2129;
+}
+
+#cardsLeft
+{
+  position: fixed;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%, -50%);
+  color: rgb(255,255,255);
+  font-size: 14pt;
+}
+
+ul {
+  width: 40%;
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  left: -60px;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+}
