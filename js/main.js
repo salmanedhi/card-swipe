@@ -1,50 +1,87 @@
 cardsList = [
     {
         "id": "first", 
-        "heading":"Malware", 
-        "body":"Malware is when you have to pay a certain amount of money to gain access to the computer.", 
-        "answer": true, 
-        "url":"", 
-        "isImage": true
+        "heading":"Eine Erfindung der Moderne", 
+        "body":"Lange Zeit war an Künstliche Intelligenz nicht zu denken. Erst im 20. Jahrhundert veröffentlichte ein Informatiker den Gedanken, dass Maschinen eines Tages selbstständig denken und Entscheidungen treffen könnten.", 
+        "answer": false, 
+        "url":"img/cards/card1.jpeg", 
+        "isImage": true,
+        "wrongans" : "Tatsächlich formulierte der französische Philosoph René Descartes bereits Mitte des 17. Jahrhunderts eine Aussage zur Künstlichen Intelligenz. Er unterschied zwischen zwei Arten von Maschinen: lernfähige Maschinen und Maschinen, die nur eine spezielle Aufgabe erledigen können.",
+        "moreInfo" : "https://www.nzz.ch/wissenschaft/kuenstliche-intelligenz-maschinen-mit-commonsense-ld.1539827"
     },
     {
         "id": "second",
-        "heading":"Hacktivists", "body":"Hacktivists are people that go to protests and post about it online", 
+        "heading":"Intelligente Ente",
+        "body":"Als eine der ersten Erfindung der Künstlichen Intelligenz gilt die „verdauende Ente“, die sogenannte „Digesting Duck“. Das Ziel des Erfinders war es, ein Abbild einer realen Ente zu schaffen. Die „Digesting Duck“ war bereits dazu in der Lage, Körner zu essen, diese zu verdauen und anschließend auszuscheiden.", 
         "answer": true, 
-        "url":"", 
-        "isImage": false
+        "url":"img/cards/card2.jpg", 
+        "isImage": true,
+        "wrongans": "Auch wenn bei dieser Erfindung kein Computer verwendet wurde, war die „Digesting Duck“ im 18. Jahrhundert eine Innovation. Sie zählt zu der Gruppe der Automaten.",
+        "moreInfo" : "https://www.hodinkee.com/articles/watches-automatons-soul-and-the-digesting-duck-of-jacques-de-vaucanson"
     },
     {
         "id": "third",
-        "heading":"Cyber Attack", 
-        "body":"Backing up important files offline, on an external hard drive or in the cloud, will help protect your business in the event of a cyber attack. True or False?", 
-        "answer": false, 
-        "url":"", 
-        "isImage": false
+        "heading":"Der Turing Test", 
+        "body":"Der sogenannte „Turing Test“, entwickelt von einem britischen Mathematiker, gilt als ein Meilenstein zur Entwicklung der Künstlichen Intelligenz. Bis heute hat dieser Test Gültigkeit. Er zeigt an, ob eine Maschine das Denkvermögen eines Menschen hat und dadurch „intelligent“ ist.", 
+        "answer": true, 
+        "url":"img/cards/card3.jpg", 
+        "isImage": true,
+        "wrongans": "Diese Aussage stimmt. Alan Mathison Turing gilt als Entwickler des Turing Tests, der noch heute verwendet wird.",
+        "moreInfo" : "https://jaai.de/mensch-oder-maschine-der-turing-test-einfach-erklaert-1385/"
     },
     {
         "id": "fourth", 
-        "heading":"Cyber criminals", 
-        "body":"Cyber criminals only target large companies. True or False?", 
-        "answer": false, 
-        "url":"", 
-        "isImage": true
+        "heading":"Grundgesetze für Roboter", 
+        "body":`Folgende Gesetze gelten für Roboter seit 1950:</br>
+                §1: Ein Roboter darf niemals einem Menschen Schaden zufügen.</br>
+                §2: Ein Roboter muss stets dem Menschen gehorchen, es sei denn dies steht in Konflikt zu §1. </br>
+                §3: Ein Roboter muss seine eigene Existenz beschützen, es sei denn dies steht in Konflikt zu §1 oder §2. 
+                `, 
+        "answer": true, 
+        "url":"img/cards/card4.jpg", 
+        "isImage": true,
+        "wrongans": "In der Tat veröffentlichte der Science Fiction Autor Isaac Asimov 1942 diese Gesetze unter dem Namen „The Three Laws of Robotics“.",
+        "moreInfo" : "http://www.roboterwelt.de/magazin/die-robotergesetze-von-isaac-asimov/"
     },
     {
         "id": "five", 
-        "heading":"Email Phishing", 
-        "body":"Over 90% of successful cyberattacks start as phishing emails", 
+        "heading":"1951: Der erste Neurocomputer", 
+        "body":"Mit 40 Synapsen entwickelte ein amerikanischer Mathematiker den ersten Neurocomputer. Dieser sollte das Verhalten von Sozialverhalten von Kleinkindern simulieren.", 
         "answer": false, 
-        "url":"", 
-        "isImage": false
+        "url":"img/cards/card5.jpg", 
+        "isImage": true,
+        "wrongans": "Naja. Diese Aussage stimmt nur teilweise. In Wirklichkeit handelte es sich um das Verhalten von Laborraten, das der amerikanische Mathematiker Marvin Minsky mithilfe der Erfindung eines neuronalen Netzes simulieren und analysieren wollte.",
+        "moreInfo" : "https://taz.de/Nachruf-auf-Marvin-Minsky/!5270090/"
     },
     {
         "id": "sixth", 
-        "heading":"Stolen Data", 
-        "body":"If a block of data is stolen from your business, such as customer information, the first thing you should do is notify those affected", 
+        "heading":"Die Geburtsstunde der Künstlichen Intelligenz", 
+        "body":"Im Jahr 1956 fand in New Hapshire, Amerika, eine wissenschaftliche Konferenz statt. Hier wurde erstmals der Begriff „artificial intelligence“, also „Künstliche Intelligenz“, als Name einer eigenständigen Forschungsdisziplin verwendet.", 
+        "answer": true, 
+        "url":"img/cards/card6.jpg", 
+        "isImage": true,
+        "wrongans": "In der Tat gibt es seit dieser Konferenz im Jahr 1956 am Dartmouth College in New Hampshire die Forschungsdisziplin der Künstlichen Intelligenz.",
+        "moreInfo" : "https://www.heise.de/newsticker/meldung/50-Jahre-Kuenstliche-Intelligenz-141200.html"
+    },
+    {
+        "id": "seven", 
+        "heading":"Englischstunde bei Mr. Robot", 
+        "body":"In den 60er Jahren kommunizierten Schülerinnen und Schüler erstmals mit einem künstlich-intelligenten Lehrer. Der Chatbot mit dem Namen „Mr. Robot“ wurde im Englisch-Unterricht eingesetzt.", 
         "answer": false, 
-        "url":"", 
-        "isImage": true
+        "url":"img/cards/card7.jpg", 
+        "isImage": true,
+        "wrongans": "Zwar wurde in den 60er Jahren (genauer gesagt 1966) der erste Chatbot entwickelt, dieser trug allerdings den Namen „Eliza“ und arbeitete als Psychotherapeut.",
+        "moreInfo" : "http://www.med-ai.com/models/eliza.html.de"
+    },
+    {
+        "id": "eight", 
+        "heading":"Weltmeister KI", 
+        "body":"1979, 1997, 2011 und 2016: Das sind die Jahre, in denen Künstliche Intelligenz den Menschen besiegte. Angefangen bei dem Brettspiel Backgammon, über die Weltmeisterschaft im Schach, zu der Quizshow Jeopardy! und schließlich zum chinesischen Strategiespiel Go! – Der Computer scheint dem Menschen in immer komplexeren Situationen überlegen zu sein.", 
+        "answer": true, 
+        "url":"img/cards/card8.jpg", 
+        "isImage": true,
+        "wrongans": "All diese Siege eines Computers mithilfe Künstlicher Intelligenz gab es wirklich. Abzuwarten bleibt, welche Weltmeisterschaft ein Computer als nächstes für sich entscheidet …",
+        "moreInfo" : "https://video.golem.de/wissenschaft/4413/watson-gewinnt-gegen-die-groessten-champions-in-der-geschichte-von-jeopardy.html"
     }
 ];
 
@@ -53,6 +90,7 @@ cardDecisions = [];
 let idx = 0;
 let currentCardIdx = 0;
 let currentClickedCardId = -1;
+let currentClickedType = ""; //can be card, moreinfo, none
 
 class Carousel 
 {
@@ -61,7 +99,7 @@ class Carousel
         this.board = board;
         this.stats = stats;
 
-        cardsLeft.innerText = (cardsList.length - currentCardIdx) + "  cards left";
+        cardsLeft.innerText = (cardsList.length - currentCardIdx) + "  Karten übrig";
 
         this.push();
         this.push();
@@ -173,19 +211,15 @@ class Carousel
             if (propX > 0.20 && e.direction == Hammer.DIRECTION_RIGHT) 
             {
                 successful = true;
-
-                if(cardsList[currentCardIdx].answer == true)
-                    decision = true;
+                decision = true;
                 // get right border position
                 posX = this.board.clientWidth
                 
             } else if (propX < -0.25 && e.direction == Hammer.DIRECTION_LEFT) 
             {
                 successful = true;
-
-                if(cardsList[currentCardIdx].answer == false)
-                    decision = true;
-
+                decision = false;
+                
                 // get left border position
                 posX = - (this.board.clientWidth + this.topCard.clientWidth)
                 
@@ -247,7 +281,7 @@ class Carousel
         const card = document.createElement('div');
         card.classList.add('card');
 
-        let url = "https://picsum.photos/320/320/?random=" + Math.round(Math.random()*1000000);
+        //let url = "https://picsum.photos/320/320/?random=" + Math.round(Math.random()*1000000);
 
         let id = idx;
         
@@ -255,7 +289,7 @@ class Carousel
 
         if(cardContent.isImage)
         {
-            cardContent.url = url;
+            // cardContent.url = url;
             card.innerHTML = this.getCardInnerHTML(cardContent);
         } else
         {
@@ -346,41 +380,54 @@ class Carousel
         {
             var decision = cardDecisions[i];
 
-            if(decision.decision == false)
-            {
-                if(i == 0)
-                    stats.appendChild(ul);
+            if(i == 0)
+                stats.appendChild(ul);
 
+            let cardContent = cardsList[decision.idx];
+
+            var li = document.createElement('li');
+            //li.classList.add("custom_column");
+
+            var cardAnswer = cardContent.answer == true ? "Wahr" : "Falsch";
+            var userAnswer = decision.decision == true ? "Wahr" : "Falsch";
+
+            if(cardAnswer != userAnswer)
                 countOfwrongAns++;
 
-                let cardContent = cardsList[decision.idx];
+            li.id = decision.idx;
 
-                var li = document.createElement('li');
-                //li.classList.add("custom_column");
+            var noneBtn = `<button class="result_button" id=`+li.id+` onclick="carousel.showClickedCard(this, 'none');">tick</button>`;
 
-                li.id = decision.idx;
-                li.innerHTML = `
-                    <div >
-                        <h4 class="green_color_text">` + cardContent.heading + `</h4>
-                        <span> Correct Answer: ` + cardContent.answer + ` </span><br/>
-                        <span> Your Answer: ` + decision.decision + ` </span>
-                    </div>
-                `;
+            li.innerHTML = `
+                <div>
+                    <h4 class="green_color_text">` + cardContent.heading + `</h4>
+                    <span> Richtige Antwort: ` + cardAnswer + ` </span><br/>
+                    <span> Ihre Antwort: ` + userAnswer + ` </span>
+                    <button class="result_button" id=`+li.id+` onclick="carousel.showClickedCard(this, 'card');">card</button>
+                    <button class="result_button" id=`+li.id+` onclick="window.open('`+ cardContent.moreInfo + `')">info</button>`
+                    + (cardAnswer != userAnswer ? noneBtn  : "") + `
+                </div>
+            `;
 
-                li.onclick = function()
-                {
-                    carousel.showClickedCard(this);
-                }
+            // li.onclick = function()
+            // {
+            //     carousel.showClickedCard(this);
+            // }
 
-                ul.appendChild(li);
-            }
+            ul.appendChild(li);
+            
         }
         this.stats.appendChild(ul);
 
 
 
         let resultP = document.getElementById('resultP');
-        resultP.innerHTML = `Thank you for participating! Here's how you scored. You answered <span class="ans_span">` + (cardsList.length-countOfwrongAns) + `</span> out of <span class="ans_span"> ` +  cardsList.length +  ` </span> correctly!`;
+        resultP.innerHTML = `
+            Das waren die Meilensteile der KI. Hier sehen Sie, welche Aussagen richtig, welche falsch sind und wie Sie sich entschieden haben. <br/>
+            Insgesamt haben Sie <span class="ans_span">` + (cardsList.length-countOfwrongAns) + `</span> von <span class="ans_span"> ` 
+            +  cardsList.length + `</span> Aussagen richtig bewertet. 
+            <br/><br/>Klicken Sie auf die Buttons, um mehr zu erfahren.
+        `;
         
         summary.style.display = "block";
     }
@@ -391,7 +438,7 @@ class Carousel
         if(cardContent.isImage)
         {
             return `
-                <div style="padding:15px;">
+                <div>
                     <h2>` + cardContent.heading + `</h2>
                     <img src=` + cardContent.url + ` height=200 width=200>
                     <p class="cardBody">` + cardContent.body + `</p>
@@ -400,7 +447,7 @@ class Carousel
         } else
         {
             return `
-                <div style="padding:15px;">
+                <div>
                     <h2>` + cardContent.heading + `</h2>
                     <video height=200 width=260 controls>
                         <source src=` + cardContent.url + ` type="video/mp4" >
@@ -411,34 +458,57 @@ class Carousel
         }
     }
 
-    showClickedCard(item) 
-    {
+    showClickedCard(item, clickedType) 
+    {   
+        let cardContent = cardsList[item.id];
 
-        if(currentClickedCardId != -1 && currentClickedCardId != item.id)
+        if(currentClickedCardId != -1 && (currentClickedCardId != item.id || currentClickedType != clickedType))
         {
-            document.getElementById(currentClickedCardId).classList.remove('checked');
+            // document.getElementById(currentClickedCardId).classList.remove('checked');
 
             var currentCardElement = document.getElementById("c"+currentClickedCardId);
             if(currentCardElement)
                 this.stats.removeChild(currentCardElement);
         } 
-        if(currentClickedCardId != item.id)
+        if( (currentClickedCardId != item.id || currentClickedType != clickedType) && clickedType=="card")
         {
-            item.classList.toggle('checked');
+            // item.classList.toggle('checked');
 
             currentClickedCardId = item.id;
-        
+            currentClickedType = "card";
+
             let card = document.createElement('div');
             card.classList.add('card2');
             card.id = "c"+item.id;
-    
-            let cardContent = cardsList[item.id];
             
             card.innerHTML = this.getCardInnerHTML(cardContent); 
     
             this.stats.appendChild(card);
-        } 
+        } else if((currentClickedCardId != item.id || currentClickedType != clickedType) && clickedType == "moreinfo")
+        {
+            currentClickedCardId = item.id;
+            currentClickedType = "moreinfo";
+
+            let info = document.createElement('div');
+            info.id = "c"+item.id;
+            info.innerHTML = cardContent.moreInfo;
+            info.classList.add('more_info');
+
+            this.stats.appendChild(info);
+        } else if((currentClickedCardId != item.id || currentClickedType != clickedType) && clickedType == "none")
+        {
+            currentClickedCardId = item.id;
+            currentClickedType = "none";
+
+            let info = document.createElement('div');
+            info.id = "c"+item.id;
+            info.innerHTML = cardContent.wrongans;
+            info.classList.add('more_info');
+
+            this.stats.appendChild(info);
+        }
     }
+
 }
 
 
@@ -452,3 +522,23 @@ summary.style.display = "none";
 
 let carousel = new Carousel(board, stats);
 
+// (function($) {
+//     var element = $('.follow-scroll'),
+//         originalY = element.offset().top;
+    
+//     // Space between element and top of screen (when scrolling)
+//     var topMargin = 20;
+    
+//     // Should probably be set in CSS; but here just for emphasis
+//     element.css('position', 'relative');
+    
+//     $(window).on('scroll', function(event) {
+//         var scrollTop = $(window).scrollTop();
+        
+//         element.stop(false, false).animate({
+//             top: scrollTop < originalY
+//                     ? 0
+//                     : scrollTop - originalY + topMargin
+//         }, 300);
+//     });
+// })(jQuery);

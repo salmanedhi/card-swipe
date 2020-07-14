@@ -41,7 +41,7 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    /*border-radius: 3%;  show this to kevin */ 
+    border-radius: 4%; 
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
     background-color: white;
     transform: translateX(-50%) translateY(-50%) scale(0.95);
@@ -53,12 +53,26 @@ p {
 .card2 {
   width: 320px;
   height: 450px;
+  border-radius: 4%;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
   background-color: white;
   border-color: rgb(60,70,75);
   border-style: groove;
   float: right;
-  position: relative;
+  position: fixed;
+  right: 90px;
+  top: 140px;
+}
+
+.more_info {
+  width: 320px;
+  height: 200px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+  background-color: white;
+  border-color: rgb(60,70,75);
+  border-style: groove;
+  float: right;
+  position: fixed;
   right: 80px;
 }
 
@@ -92,20 +106,17 @@ p {
   margin-top: 20px;
 }
 
-#resultP
-{
-  font-size: large;
-}
-
 .ans_span
 {
   font-weight: bold;
+  font-size: 16px;
 }
 
 .cardBody
 {
   margin-top: 20px;
   color: #1d2129;
+  font-size: 14px;
 }
 
 #cardsLeft
@@ -120,23 +131,24 @@ p {
 
 ul {
   width: 40%;
-  position: relative;
+  position: absolute;
   list-style-type: none;
   display: inline-block;
   text-align: left;
   margin: 0;
   padding: 0;
-  left: -60px;
+  left: 163px;
 }
 
 /* Style the list items */
 ul li {
-  cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+  width: 451px;
+  height: 99px;
 
 }
 
@@ -154,4 +166,50 @@ ul li:hover {
 ul li.checked {
   background: #888;
   color: #fff;
+}
+
+.result_button
+{
+  float: right;
+  position: relative;
+  top: -30px;
+  margin-left: 10px;
+  width: 65px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.result_button:hover
+{
+  background-color: #009999;
+  color: white;
+  border: none;
+}
+
+.result_button:focus
+{
+  background-color: #009999;
+  color: white;
+  border: none;
+}
+
+.restart_quiz_button {
+  border-radius: 4px;
+  position: fixed;
+  width: 115px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgb(65, 170, 170);
+  float: right;
+  top: 10px;
+  right: 10px; 
+  
+}
+
+.restart_quiz_button:hover {
+  background-color: #009999;
+  color: white;
 }

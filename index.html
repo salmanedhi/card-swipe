@@ -1,23 +1,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
     </head>
 
     <body>
       
         <div  id="board">
-            <img src="img/tick.png" height="150" width="150" style="float: left; top: 200px; position: relative; left: 25px;">
-            <img src="img/tick.png" height="150" width="150" style="float: right; top: 200px; position: relative; right: 25px;">
+            <img src="img/Kreuz.png" height="140" width="140" style="float: left; top: 200px; position: relative; left: 50px;">
+            <img src="img/Haken.png" height="140" width="140" style="float: right; top: 200px; position: relative; right: 50px;">
             <span id="cardsLeft">9 cards left</span>
         </div>
 
             
         <div class="summary" id="summary">
-          <h2>Results</h2>
-          <p id="resultP">Thank you for participating! Here's how you scored. You answered x out of y correctly!</p>
+          <h2>Geschafft!</h2>
+          <p id="resultP">
+            Das waren die Meilensteile der KI. Hier sehen Sie, welche Aussagen richtig, welche falsch sind und wie Sie sich entschieden haben.<br/>
+            Insgesamt haben Sie … von … Aussagen richtig bewertet. <br/>
+            Klicken Sie auf die Buttons, um mehr zu erfahren.
+          </p>
           <div id="stats">
             
           </div>
+          <button class="restart_quiz_button" type="button" onclick="location.href='index.html'">Quiz neustarten</button>
         </div>
             
     </body>
