@@ -447,7 +447,7 @@ class Carousel
         {
             return `
                 <div>
-                    <h2 style="padding-left:40px; padding-right:40px; text-align:left;">` + cardContent.heading + `</h2>
+                    <h2 style="padding-left:40px; padding-right:40px;">` + cardContent.heading + `</h2>
                     <p class="cardBody" style="`+cardContent.style+`">` + cardContent.body + `</p>
                     <img src=` + cardContent.url + ` height=200 width=200>
                 </div>
