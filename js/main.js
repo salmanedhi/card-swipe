@@ -7,7 +7,8 @@ cardsList = [
         "url":"img/cards/card1.jpeg", 
         "isImage": true,
         "wrongans" : "Tatsächlich formulierte der französische Philosoph René Descartes bereits Mitte des 17. Jahrhunderts eine Aussage zur Künstlichen Intelligenz. Er unterschied zwischen zwei Arten von Maschinen: lernfähige Maschinen und Maschinen, die nur eine spezielle Aufgabe erledigen können.",
-        "moreInfo" : "https://www.nzz.ch/wissenschaft/kuenstliche-intelligenz-maschinen-mit-commonsense-ld.1539827"
+        "moreInfo" : "https://www.nzz.ch/wissenschaft/kuenstliche-intelligenz-maschinen-mit-commonsense-ld.1539827",
+        "style" : ""
     },
     {
         "id": "second",
@@ -17,7 +18,8 @@ cardsList = [
         "url":"img/cards/card2.jpg", 
         "isImage": true,
         "wrongans": "Auch wenn bei dieser Erfindung kein Computer verwendet wurde, war die „Digesting Duck“ im 18. Jahrhundert eine Innovation. Sie zählt zu der Gruppe der Automaten.",
-        "moreInfo" : "https://www.hodinkee.com/articles/watches-automatons-soul-and-the-digesting-duck-of-jacques-de-vaucanson"
+        "moreInfo" : "https://www.hodinkee.com/articles/watches-automatons-soul-and-the-digesting-duck-of-jacques-de-vaucanson",
+        "style" : ""
     },
     {
         "id": "third",
@@ -27,21 +29,23 @@ cardsList = [
         "url":"img/cards/card3.jpg", 
         "isImage": true,
         "wrongans": "Diese Aussage stimmt. Alan Mathison Turing gilt als Entwickler des Turing Tests, der noch heute verwendet wird.",
-        "moreInfo" : "https://jaai.de/mensch-oder-maschine-der-turing-test-einfach-erklaert-1385/"
+        "moreInfo" : "https://jaai.de/mensch-oder-maschine-der-turing-test-einfach-erklaert-1385/",
+        "style" : ""
     },
     {
         "id": "fourth", 
         "heading":"Grundgesetze für Roboter", 
         "body":`Folgende Gesetze gelten für Roboter seit 1950:</br>
-                §1: Ein Roboter darf niemals einem Menschen Schaden zufügen.</br>
-                §2: Ein Roboter muss stets dem Menschen gehorchen, es sei denn dies steht in Konflikt zu §1. </br>
-                §3: Ein Roboter muss seine eigene Existenz beschützen, es sei denn dies steht in Konflikt zu §1 oder §2. 
+                • Ein Roboter darf niemals einem Menschen Schaden zufügen.</br>
+                • Ein Roboter muss stets dem Menschen gehorchen. </br>
+                • Ein Roboter muss seine eigene Existenz beschützen. 
                 `, 
         "answer": true, 
         "url":"img/cards/card4.jpg", 
         "isImage": true,
         "wrongans": "In der Tat veröffentlichte der Science Fiction Autor Isaac Asimov 1942 diese Gesetze unter dem Namen „The Three Laws of Robotics“.",
-        "moreInfo" : "http://www.roboterwelt.de/magazin/die-robotergesetze-von-isaac-asimov/"
+        "moreInfo" : "http://www.roboterwelt.de/magazin/die-robotergesetze-von-isaac-asimov/",
+        "style" : ""
     },
     {
         "id": "five", 
@@ -51,7 +55,8 @@ cardsList = [
         "url":"img/cards/card5.jpg", 
         "isImage": true,
         "wrongans": "Naja. Diese Aussage stimmt nur teilweise. In Wirklichkeit handelte es sich um das Verhalten von Laborraten, das der amerikanische Mathematiker Marvin Minsky mithilfe der Erfindung eines neuronalen Netzes simulieren und analysieren wollte.",
-        "moreInfo" : "https://taz.de/Nachruf-auf-Marvin-Minsky/!5270090/"
+        "moreInfo" : "https://taz.de/Nachruf-auf-Marvin-Minsky/!5270090/",
+        "style" : ""
     },
     {
         "id": "sixth", 
@@ -61,7 +66,8 @@ cardsList = [
         "url":"img/cards/card6.jpg", 
         "isImage": true,
         "wrongans": "In der Tat gibt es seit dieser Konferenz im Jahr 1956 am Dartmouth College in New Hampshire die Forschungsdisziplin der Künstlichen Intelligenz.",
-        "moreInfo" : "https://www.heise.de/newsticker/meldung/50-Jahre-Kuenstliche-Intelligenz-141200.html"
+        "moreInfo" : "https://www.heise.de/newsticker/meldung/50-Jahre-Kuenstliche-Intelligenz-141200.html",
+        "style" : ""
     },
     {
         "id": "seven", 
@@ -71,7 +77,8 @@ cardsList = [
         "url":"img/cards/card7.jpg", 
         "isImage": true,
         "wrongans": "Zwar wurde in den 60er Jahren (genauer gesagt 1966) der erste Chatbot entwickelt, dieser trug allerdings den Namen „Eliza“ und arbeitete als Psychotherapeut.",
-        "moreInfo" : "http://www.med-ai.com/models/eliza.html.de"
+        "moreInfo" : "http://www.med-ai.com/models/eliza.html.de",
+        "style" : ""
     },
     {
         "id": "eight", 
@@ -81,7 +88,8 @@ cardsList = [
         "url":"img/cards/card8.jpg", 
         "isImage": true,
         "wrongans": "All diese Siege eines Computers mithilfe Künstlicher Intelligenz gab es wirklich. Abzuwarten bleibt, welche Weltmeisterschaft ein Computer als nächstes für sich entscheidet …",
-        "moreInfo" : "https://video.golem.de/wissenschaft/4413/watson-gewinnt-gegen-die-groessten-champions-in-der-geschichte-von-jeopardy.html"
+        "moreInfo" : "https://video.golem.de/wissenschaft/4413/watson-gewinnt-gegen-die-groessten-champions-in-der-geschichte-von-jeopardy.html",
+        "style" : ""
     }
 ];
 
@@ -250,7 +258,7 @@ class Carousel
                 {
                     // wait transition end
                     setTimeout(() => {
-                        cardsLeft.innerText = (cardsList.length - currentCardIdx) + "  cards left";
+                        cardsLeft.innerText = (cardsList.length - currentCardIdx) + "  Karten übrig";
                         // remove swiped card
                         this.board.removeChild(this.topCard)
                         // add new card
@@ -396,15 +404,15 @@ class Carousel
 
             li.id = decision.idx;
 
-            var noneBtn = `<button class="result_button" id=`+li.id+` onclick="carousel.showClickedCard(this, 'none');">tick</button>`;
+            var noneBtn = `<button class="result_button"  id=`+li.id+` onclick="carousel.showClickedCard(this, 'none');">Lösung</i></button>`;
 
             li.innerHTML = `
                 <div>
                     <h4 class="green_color_text">` + cardContent.heading + `</h4>
                     <span> Richtige Antwort: ` + cardAnswer + ` </span><br/>
                     <span> Ihre Antwort: ` + userAnswer + ` </span>
-                    <button class="result_button" id=`+li.id+` onclick="carousel.showClickedCard(this, 'card');">card</button>
-                    <button class="result_button" id=`+li.id+` onclick="window.open('`+ cardContent.moreInfo + `')">info</button>`
+                    <button class="result_button" id=`+li.id+` onclick="carousel.showClickedCard(this, 'card');"><i class="fa fa-eye fa-lg"></i></button>
+                    <button class="result_button" id=`+li.id+` onclick="window.open('`+ cardContent.moreInfo + `')"><i class="fa fa-info-circle fa-lg"></i></button>`
                     + (cardAnswer != userAnswer ? noneBtn  : "") + `
                 </div>
             `;
@@ -439,9 +447,9 @@ class Carousel
         {
             return `
                 <div>
-                    <h2>` + cardContent.heading + `</h2>
+                    <h2 style="padding-left:40px; padding-right:40px; text-align:left;">` + cardContent.heading + `</h2>
+                    <p class="cardBody" style="`+cardContent.style+`">` + cardContent.body + `</p>
                     <img src=` + cardContent.url + ` height=200 width=200>
-                    <p class="cardBody">` + cardContent.body + `</p>
                 </div>
             `;
         } else
