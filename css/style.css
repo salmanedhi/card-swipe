@@ -80,36 +80,6 @@ p {
   padding: 16px;
 }
 
-/* Float four columns side by side */
-.custom_column {
-    width: 5%;
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .custom_row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .custom_row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-@media screen and (max-width: 600px) {
-    .custom_column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-
-.cardMargin 
-{
-  margin-top: 20px;
-}
-
 .ans_span
 {
   font-weight: bold;
@@ -220,3 +190,35 @@ ul li.checked {
   background-color: #009999;
   color: white;
 }
+
+/* Float four columns side by side */
+/*
+.custom_column {
+    width: 5%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding 
+  .custom_row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns 
+  .custom_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns 
+@media screen and (max-width: 600px) {
+    .custom_column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.cardMargin 
+{
+  margin-top: 20px;
+}
+*/

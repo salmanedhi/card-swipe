@@ -271,9 +271,8 @@ class Carousel
                     //change layout and show stats
                     this.showStats();
                 }
-              } else {
-            
-                // reset card position
+              } else 
+              {
                 // reset cards position and size
                 this.topCard.style.transform =
                 'translateX(-50%) translateY(-50%) rotate(0deg) rotateY(0deg) scale(1)'
@@ -297,15 +296,13 @@ class Carousel
 
         if(cardContent.isImage)
         {
-            // cardContent.url = url;
             card.innerHTML = this.getCardInnerHTML(cardContent);
         } else
         {
             url = "small.mp4";
             cardContent.url = url;   
             card.innerHTML = this.getCardInnerHTML(cardContent);
-        }
-        
+        } 
         
         cardsList[id % cardsList.length] = cardContent;
         idx++;
@@ -382,7 +379,6 @@ class Carousel
         //logic of showing list with card on click
         
         var ul = document.createElement('ul');
-        //ul.classList.add("custom_row", "cardMargin");
         
         for(var i in cardDecisions)
         {
@@ -394,7 +390,6 @@ class Carousel
             let cardContent = cardsList[decision.idx];
 
             var li = document.createElement('li');
-            //li.classList.add("custom_column");
 
             var cardAnswer = cardContent.answer == true ? "Wahr" : "Falsch";
             var userAnswer = decision.decision == true ? "Wahr" : "Falsch";
@@ -417,17 +412,10 @@ class Carousel
                 </div>
             `;
 
-            // li.onclick = function()
-            // {
-            //     carousel.showClickedCard(this);
-            // }
-
             ul.appendChild(li);
             
         }
         this.stats.appendChild(ul);
-
-
 
         let resultP = document.getElementById('resultP');
         resultP.innerHTML = `
@@ -525,28 +513,6 @@ let stats = document.getElementById('stats');
 let summary = document.getElementById('summary');
 let cardsLeft = document.getElementById('cardsLeft');
 
-//board.style.display = "none";
 summary.style.display = "none";
 
 let carousel = new Carousel(board, stats);
-
-// (function($) {
-//     var element = $('.follow-scroll'),
-//         originalY = element.offset().top;
-    
-//     // Space between element and top of screen (when scrolling)
-//     var topMargin = 20;
-    
-//     // Should probably be set in CSS; but here just for emphasis
-//     element.css('position', 'relative');
-    
-//     $(window).on('scroll', function(event) {
-//         var scrollTop = $(window).scrollTop();
-        
-//         element.stop(false, false).animate({
-//             top: scrollTop < originalY
-//                     ? 0
-//                     : scrollTop - originalY + topMargin
-//         }, 300);
-//     });
-// })(jQuery);
